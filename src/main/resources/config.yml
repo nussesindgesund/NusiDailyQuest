@@ -1,0 +1,104 @@
+# Lista wiadomości pluginu
+messages:
+  nocomplete: "&cMisja nie została jeszcze wykonana!"
+  complate: "&aMisja wykonana wróć za [TIME]!"
+  timeleft: '&7Kolejne zadanie masz za &e[TIMELEFT]'
+
+# Cooldown na zadanie
+cooldown: 86400
+
+# Edytowanie GUI
+gui:
+  size: 45
+  # Nazwa głównego GUI
+  title: "&8Codzienne Zadania"
+  # Ustawiasz slot głównego przedmiotu zadania
+  mainitem:
+    slot: 22
+  # Sekcja dekoracyjnych bloków
+  decorationblock:
+    '1':
+      type: LIGHT_BLUE_STAINED_GLASS_PANE
+      name: '&d'
+      lore:
+        - "&d"
+        - "&e"
+      slots:
+        - 0
+        - 8
+        - 36
+        - 44
+    '2':
+      type: BLUE_STAINED_GLASS_PANE
+      name: '&d'
+      lore:
+        - "&d"
+        - "&e"
+      slots:
+        - 1
+        - 7
+        - 9
+        - 17
+        - 27
+        - 35
+        - 43
+        - 37
+    '3':
+      type: WHITE_STAINED_GLASS_PANE
+      name: '&d'
+      lore:
+        - "&d"
+        - "&e"
+      slots:
+        - 2
+        - 3
+        - 5
+        - 6
+        - 18
+        - 26
+        - 38
+        - 39
+        - 41
+        - 42
+
+missions:
+  '0':
+    quest: DEATHS
+    name: "&cŚmierci &f[STATS]87/&7[VALUE] 1"
+    item: DIAMOND
+    lore:
+      - "&7Musisz zginąć odpowiednią ilość razy 1"
+      - "[COMPLETE]"
+    value: 10
+    commands:
+      - eco give [PLAYER] 10
+  '1':
+    quest: DEATHS
+    name: "&cŚmierci &f[STATS]87/&7[VALUE] 1"
+    item: DIAMOND
+    lore:
+      - "&7Musisz zginąć odpowiednią ilość razy 1"
+      - "[COMPLETE]"
+    value: 10
+    commands:
+      - eco give [PLAYER] 10
+  '2':
+    quest: DEATHS
+    name: "&cŚmierci &f[STATS]87/&7[VALUE] 1"
+    item: DIAMOND
+    lore:
+      - "&7Musisz zginąć odpowiednią ilość razy 1"
+      - "[COMPLETE]"
+    value: 10
+    commands:
+      - eco give [PLAYER] 10
+  '3':
+    quest: DEATHS
+    name: "&cŚmierci &f[STATS]87/&7[VALUE] 1"
+    item: DIAMOND
+    lore:
+      - "&7Musisz zginąć odpowiednią ilość razy 1"
+      - "[COMPLETE]"
+    value: 10
+    commands:
+      - eco give [PLAYER] 10

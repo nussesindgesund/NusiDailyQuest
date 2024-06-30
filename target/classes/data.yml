@@ -1,0 +1,8 @@
+# https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html
+players:
+  Ja_Kuba:
+    questname: ANIMALS_BRED # Nazwa zadania z linku => https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Statistic.html
+    questtype: 1 # Numer zadania z configu
+    before: 10 # Wartość osiągnięcia przed zapisem
+    time: 1000 # Czas kiedy użytkownik odebrał nagrode aby odliczać 12h
+    complete: false # Czy quest jest ukończony

@@ -1,0 +1,7 @@
+name: NusiDailyQuest
+version: '1.0-SNAPSHOT'
+main: pl.nusse.nusidailyquest.NusiDailyQuest
+author: Nusse
+api-version: '1.18'
+commands:
+  dailyquest:

@@ -1,0 +1,9 @@
+pl\nusse\nusidailyquest\manager\DataManager.class
+pl\nusse\nusidailyquest\NusiDailyQuest.class
+pl\nusse\nusidailyquest\listener\onInventoryClick.class
+pl\nusse\nusidailyquest\user\User.class
+pl\nusse\nusidailyquest\command\openQuestGui.class
+pl\nusse\nusidailyquest\user\UserManager.class
+pl\nusse\nusidailyquest\util\ColorFixer.class
+pl\nusse\nusidailyquest\listener\onPlayerJoin.class
+pl\nusse\nusidailyquest\manager\ConfigManager.class
